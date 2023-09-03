@@ -1,0 +1,26 @@
+@use "_Mixins.module.scss" as *;
+@use "_Variables.module.scss" as *;
+@use "BoxShadow.module.scss" as *;
+
+.container {
+  width: clamp(20rem, 40rem, 90dvw);
+  height: 80dvh;
+  @include gridCenter;
+  padding-block: 0.5rem;
+  gap: 1rem;
+  background: $altBg;
+  border: 1px solid currentColor;
+  border-radius: 5px;
+  @include shadow1;
+
+  .form {
+    padding-block: 0.5rem;
+    height: 5dvh;
+  }
+  .content {
+    padding-block: 0.5rem;
+  }
+  .daysContent {
+    padding-block: 0.5rem;
+  }
+}

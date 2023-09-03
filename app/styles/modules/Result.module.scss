@@ -1,0 +1,11 @@
+@use '_Mixins.module.scss' as *;
+@use '_Variables.module.scss' as *;
+@use '_BoxShadow.module.scss' as *;
+
+.container{
+  @include resultShadow;
+  border:1px solid currentColor;
+  background: $altBg;
+  border-radius: 2px;
+  padding: .4rem;
+}
