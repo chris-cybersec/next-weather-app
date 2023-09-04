@@ -3,6 +3,18 @@
 @use '_BoxShadow.module.scss' as *;
 
 .container{
+  .home{
+@include borderRed;
+padding: .1rem;
+cursor: pointer;
+ background: $bg3;
+ }
+  
+  h3{
+    text-align: center;
+    font-size: 1.6rem;
+    translate: 0rem 1rem;
+  }
   @include resultShadow;
   border:1px solid currentColor;
   background: $altBg;

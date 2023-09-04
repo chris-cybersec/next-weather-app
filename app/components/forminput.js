@@ -19,9 +19,7 @@ const FormInput = () => {
   } = useForm();
 
   const submitHandler = async (data) => {
-    // console.log(data);
     const { country } = data;
-    // console.log(country)
      await getCountry(country);
 
     router.push(`${country}`)

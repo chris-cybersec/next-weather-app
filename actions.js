@@ -1,7 +1,8 @@
 //*****************************getCountry
 const getCountry = async(country) => {
-  const endpoint = `http://localhost:3000/api/geocoding`
-const config = {
+  // const endpoint = `http://localhost:3000/api/geocoding`
+const endpoint = `https://3e52-83-150-56-136.ngrok-free.app/api/geocoding`
+  const config = {
   method: "POST",
   headers: { "Content-Type": "application/json" },
   body: JSON.stringify(country)

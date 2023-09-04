@@ -6,7 +6,7 @@ import styles from "@/app/styles/min/Header.module.css";
 const Header = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.left}>next-meteo</div>
+      <Link href={"/"} className={styles.left}>next-meteo</Link>
       <div className={styles.right}>
         <Link href="#"><ImGithub /></Link>
       </div>
