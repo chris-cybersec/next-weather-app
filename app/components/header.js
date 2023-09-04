@@ -8,7 +8,7 @@ const Header = () => {
     <div className={styles.container}>
       <Link href={"/"} className={styles.left}>next-meteo</Link>
       <div className={styles.right}>
-        <Link href="#"><ImGithub /></Link>
+        <Link href="https://github.com/chris-cybersec/next-weather-app"><ImGithub /></Link>
       </div>
     </div>
   );
